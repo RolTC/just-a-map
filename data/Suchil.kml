@@ -1,0 +1,520 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Suchil</name>
+    <Style id="icon-1899-0288D1-labelson">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>La entrada</name>
+      <description><![CDATA[Telefono: <br>descripción: Tienda color amarillo en la curva de la entrada.]]></description>
+      <styleUrl>#icon-1899-0288D1-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Telefono">
+          <value/>
+        </Data>
+        <Data name="descripción">
+          <value>Tienda color amarillo en la curva de la entrada.</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -103.9155234,23.6206966,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Espendio de Gas</name>
+      <description><![CDATA[Telefono: <br>descripción: Junto a la gasera. Compra tira grande o chica.]]></description>
+      <styleUrl>#icon-1899-0288D1-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Telefono">
+          <value/>
+        </Data>
+        <Data name="descripción">
+          <value>Junto a la gasera. Compra tira grande o chica.</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -103.9165087,23.6219358,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>El Dorado</name>
+      <description><![CDATA[Telefono: <br>descripción: Compra tira grande]]></description>
+      <styleUrl>#icon-1899-0288D1-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Telefono">
+          <value/>
+        </Data>
+        <Data name="descripción">
+          <value>Compra tira grande</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -103.9184623,23.6255009,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Miselanea Roja</name>
+      <description><![CDATA[Telefono: <br>descripción: En la primera esquina despues del jardin. Enfrente hay otra tienda. Compara tira chica y Grande. VIP]]></description>
+      <styleUrl>#icon-1899-0288D1-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Telefono">
+          <value/>
+        </Data>
+        <Data name="descripción">
+          <value>En la primera esquina despues del jardin. Enfrente hay otra tienda. Compara tira chica y Grande. VIP</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -103.9223006,23.6221408,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Hermana del Dorado</name>
+      <description><![CDATA[Telefono: <br>descripción: Compra tira chica]]></description>
+      <styleUrl>#icon-1899-0288D1-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Telefono">
+          <value/>
+        </Data>
+        <Data name="descripción">
+          <value>Compra tira chica</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -103.9221664,23.6221322,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Super Segui</name>
+      <description><![CDATA[Telefono: <br>descripción: Compra tira chica y grande. Pasar con las cajeras y deicrles que son de las de chalchis.]]></description>
+      <styleUrl>#icon-1899-0288D1-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Telefono">
+          <value/>
+        </Data>
+        <Data name="descripción">
+          <value>Compra tira chica y grande. Pasar con las cajeras y deicrles que son de las de chalchis.</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -103.9242827,23.6183587,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Tienda A</name>
+      <description><![CDATA[Telefono: <br>descripción: En la esquinita. Compra tira grande]]></description>
+      <styleUrl>#icon-1899-0288D1-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Telefono">
+          <value/>
+        </Data>
+        <Data name="descripción">
+          <value>En la esquinita. Compra tira grande</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -103.9260375,23.6169083,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Punto 9</name>
+      <description><![CDATA[Telefono: <br>descripción: ]]></description>
+      <styleUrl>#icon-1899-0288D1-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Telefono">
+          <value/>
+        </Data>
+        <Data name="descripción">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -103.9258497,23.6155468,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Punto 10Cruzada</name>
+      <description><![CDATA[Telefono: <br>descripción: Tiene unos  arboles al frente. Al lado de una papeleria]]></description>
+      <styleUrl>#icon-1899-0288D1-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Telefono">
+          <value/>
+        </Data>
+        <Data name="descripción">
+          <value>Tiene unos  arboles al frente. Al lado de una papeleria</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -103.9312288,23.6134414,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>El arbolito</name>
+      <description><![CDATA[Telefono: <br>descripción: Tienda junto a un arbol a mano derechas si vas rumbo a chalchis. Estaba pintada de color verde y puesta azul. No recuerdo bien si es qui o una cuadra antes]]></description>
+      <styleUrl>#icon-1899-0288D1-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Telefono">
+          <value/>
+        </Data>
+        <Data name="descripción">
+          <value>Tienda junto a un arbol a mano derechas si vas rumbo a chalchis. Estaba pintada de color verde y puesta azul. No recuerdo bien si es qui o una cuadra antes</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -103.9286915,23.6151765,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Sr. Viejito</name>
+      <description><![CDATA[Telefono: <br>descripción: Tienda viejita de adobe. En la mera esquina. A veces compra]]></description>
+      <styleUrl>#icon-1899-0288D1-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Telefono">
+          <value/>
+        </Data>
+        <Data name="descripción">
+          <value>Tienda viejita de adobe. En la mera esquina. A veces compra</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -103.9296463,23.6157761,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Amarilla</name>
+      <description><![CDATA[Telefono: <br>descripción: Tienda de color amarillo al lado sur.]]></description>
+      <styleUrl>#icon-1899-0288D1-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Telefono">
+          <value/>
+        </Data>
+        <Data name="descripción">
+          <value>Tienda de color amarillo al lado sur.</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -103.9300755,23.6160366,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Tienda Juliet</name>
+      <description><![CDATA[Telefono: <br>descripción: Pintada de azul. Pasando el taller de pepe]]></description>
+      <styleUrl>#icon-1899-0288D1-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Telefono">
+          <value/>
+        </Data>
+        <Data name="descripción">
+          <value>Pintada de azul. Pasando el taller de pepe</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -103.9279619,23.6168427,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>La Naranja</name>
+      <description><![CDATA[Telefono: <br>descripción: Compra por kilo cuando es temporada de EUA]]></description>
+      <styleUrl>#icon-1899-0288D1-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Telefono">
+          <value/>
+        </Data>
+        <Data name="descripción">
+          <value>Compra por kilo cuando es temporada de EUA</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -103.929352,23.6171886,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Terraseria</name>
+      <description><![CDATA[Telefono: <br>descripción: A veces compra tira chica. Cuando esta la señora no compran. El señor aveces si.]]></description>
+      <styleUrl>#icon-1899-0288D1-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Telefono">
+          <value/>
+        </Data>
+        <Data name="descripción">
+          <value>A veces compra tira chica. Cuando esta la señora no compran. El señor aveces si.</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -103.9290086,23.6167314,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Espendio a La michilia</name>
+      <description><![CDATA[Telefono: <br>descripción: Compra tiras grandes]]></description>
+      <styleUrl>#icon-1899-0288D1-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Telefono">
+          <value/>
+        </Data>
+        <Data name="descripción">
+          <value>Compra tiras grandes</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -103.9306931,23.6163923,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Porton Blanco</name>
+      <description><![CDATA[Telefono: <br>descripción: ]]></description>
+      <styleUrl>#icon-1899-0288D1-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Telefono">
+          <value/>
+        </Data>
+        <Data name="descripción">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -103.9319001,23.6178373,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>La escuela </name>
+      <description><![CDATA[Telefono: <br>descripción: No FIAR. Compra tira chica. Pide fiado y luego hay que cobrar. Dile que andamos muy apenas y que no podemos fiar porque no hay negocio]]></description>
+      <styleUrl>#icon-1899-0288D1-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Telefono">
+          <value/>
+        </Data>
+        <Data name="descripción">
+          <value>No FIAR. Compra tira chica. Pide fiado y luego hay que cobrar. Dile que andamos muy apenas y que no podemos fiar porque no hay negocio</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -103.9329944,23.6192627,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>El castillo</name>
+      <description><![CDATA[Telefono: <br>descripción: Tienda en la esquina de ladrillo adornada con piedara que parece que tiene torres]]></description>
+      <styleUrl>#icon-1899-0288D1-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Telefono">
+          <value/>
+        </Data>
+        <Data name="descripción">
+          <value>Tienda en la esquina de ladrillo adornada con piedara que parece que tiene torres</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -103.9372357,23.6175299,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>La Ultima</name>
+      <description><![CDATA[Telefono: <br>descripción: En la mera esquina. Tiene un huisache grande al frente. pintada de amarillo]]></description>
+      <styleUrl>#icon-1899-0288D1-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Telefono">
+          <value/>
+        </Data>
+        <Data name="descripción">
+          <value>En la mera esquina. Tiene un huisache grande al frente. pintada de amarillo</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -103.9370211,23.6193189,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Prima Herlina</name>
+      <description><![CDATA[Telefono: <br>descripción: Es prima herman de mi ama. Platica de todos sus amores. No le saquen mucha platica que no los deja avanzar.]]></description>
+      <styleUrl>#icon-1899-0288D1-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Telefono">
+          <value/>
+        </Data>
+        <Data name="descripción">
+          <value>Es prima herman de mi ama. Platica de todos sus amores. No le saquen mucha platica que no los deja avanzar.</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -103.934414,23.6210785,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>6600</name>
+      <description><![CDATA[Telefono: <br>descripción: En frente hay un tractor ford 6600 tapado con una cobija. la tienda esta en la esquina.]]></description>
+      <styleUrl>#icon-1899-0288D1-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Telefono">
+          <value/>
+        </Data>
+        <Data name="descripción">
+          <value>En frente hay un tractor ford 6600 tapado con una cobija. la tienda esta en la esquina.</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -103.932161,23.6224842,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Novedades </name>
+      <description><![CDATA[Telefono: <br>descripción: En una subidita. Creo que es verde. Parece que fuera como de ropa pero tambien vende abarrotes]]></description>
+      <styleUrl>#icon-1899-0288D1-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Telefono">
+          <value/>
+        </Data>
+        <Data name="descripción">
+          <value>En una subidita. Creo que es verde. Parece que fuera como de ropa pero tambien vende abarrotes</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -103.931986,23.6199009,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>El tejavan</name>
+      <description><![CDATA[Telefono: <br>descripción: Tienda de ladrillo pintado de cafe. Un tejaban al frente. Arboles puerta de cristal. Compra tira chica y tira Grande]]></description>
+      <styleUrl>#icon-1899-0288D1-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Telefono">
+          <value/>
+        </Data>
+        <Data name="descripción">
+          <value>Tienda de ladrillo pintado de cafe. Un tejaban al frente. Arboles puerta de cristal. Compra tira chica y tira Grande</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -103.9266807,23.6197038,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Espendio de la Salida</name>
+      <description><![CDATA[Telefono: <br>descripción: Esta saliendo a gerrero en una esquina. Compra tira grande.]]></description>
+      <styleUrl>#icon-1899-0288D1-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Telefono">
+          <value/>
+        </Data>
+        <Data name="descripción">
+          <value>Esta saliendo a gerrero en una esquina. Compra tira grande.</value>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -103.9205028,23.6261116,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Guerrero</name>
+      <description><![CDATA[Telefono: <br>descripción: ]]></description>
+      <styleUrl>#icon-1899-0288D1-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Telefono">
+          <value/>
+        </Data>
+        <Data name="descripción">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -103.9865712,23.7378168,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Somberete</name>
+      <description><![CDATA[Telefono: <br>descripción: ]]></description>
+      <styleUrl>#icon-1899-0288D1-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Telefono">
+          <value/>
+        </Data>
+        <Data name="descripción">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -103.6478712,23.651544,0
+        </coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Gualterio</name>
+      <description><![CDATA[Telefono: <br>descripción: ]]></description>
+      <styleUrl>#icon-1899-0288D1-labelson</styleUrl>
+      <ExtendedData>
+        <Data name="Telefono">
+          <value/>
+        </Data>
+        <Data name="descripción">
+          <value/>
+        </Data>
+      </ExtendedData>
+      <Point>
+        <coordinates>
+          -103.8511936,23.5760649,0
+        </coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>
