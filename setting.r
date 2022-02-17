@@ -2,6 +2,7 @@ setwd("C:/Users/PC/Documents/Rolando/R/Rutas/")
 
 library(rvest)
 library(osrm)
+library(sf)
 library(leaflet)
 library(dplyr)
 library(tidyr)
@@ -24,7 +25,7 @@ select(id,lon,lat)
 
 trips <- osrmTrip(df[1:25,], returnclass="sf",overview="full")
 trip <- trips[[1]]$trip
-str(trip)
+
 trip[26,]
 
 
@@ -105,26 +106,26 @@ tf[24,]<-trip3[1,]
 tf<-tf[1:24,]
 
 
-save(tf, file = "data/ruta_suchil.RData")
+#save(tf, file = "data/ruta_suchil.RData")
 
-x<-dt%>%html_elements("description")%>%
+###############################################
+# Guardar datos en csv
+###############################################
+
+des<-dt%>%html_elements("description")%>%
 	html_text()
-x
-df$name<-x[-1]
+des<-des%>%str_remove("descripción: ")%>%str_remove("]]>")
+
+nom<-dt%>%html_elements("name")%>%
+  html_text()
+nom
+df$des<-des
+df$name<-nom[-1]
+aux<-df[1:25,]
+
+#write.csv(aux,"data/data_suchil.csv", row.names=F)
 
 
-dt%>%xml_tag("Data")
-
-dt
-
-
-rvest::xml_tag
-
-y<-readLines("data/Suchil.kml")
-y
-
-str(dt)
-dt$dontCheck
 
 
 #Show names of nodes
@@ -135,3 +136,57 @@ html_children()%>%
 html_children()
 
 RolTC. romayo10
+
+###############################################
+# Hotra cosa
+###############################################
+
+library(data.table)
+datos <- data.table(c(seq(1,52,1)),ceiling(runif(52)*100))
+colnames(datos) <- c("semana","animales.vistos")
+
+datos <- datos[,grupo := rep(1:12,c(4,4,5,4,4,5,4,4,5,4,4,5))]
+resultado <- datos[,suma:=(sum(animales.vistos)),by=c("grupo")]
+
+print(resultado)
+
+datos <- datos[,grupo2 := semana%%4]
+print(datos)
+datos
+
+load("data/ruta_suchil.Rdata")
+
+class(tf)
+str(trips)
+class(trips)
+
+st_write(tf , "test.kml", driver = "kml")
+
+sum(tf$duration)
+
+###############################################
+# Generando Ruta en Google Maps
+###############################################
+
+dir<-"https://www.google.com/maps/dir/remplazar@23.6244738,-103.93449,15z/data=!4m2!4m1!3e0"
+
+struc<-"-32.0623722,-60.6317319/-32.061733,-60.6310392/-32.0609381,-60.6305639/lat,lon"
+
+df$id
+
+df2<-df[c(tf$start,tf$end[nrow(tf)]),]
+
+df2$id
+
+txt<-""
+for(i in 1:nrow(df2)){
+  txt<-paste0(txt,df2$lat[i],",",df2$lon[i],"/")
+}
+
+txt
+
+
+
+dir<-str_replace(dir,"remplazar",txt)
+browseURL(dir)
+dir
